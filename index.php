@@ -1,7 +1,4 @@
 <?php  
-	ini_set('display_startup_errors',1);
-	ini_set('display_errors',1);
-	error_reporting(-1);
 
 	//Used Memcache because it was installed on my server, otherwise would use Memcached for smaller caches, Redis for larger caches
 	$memcache = new Memcache();
